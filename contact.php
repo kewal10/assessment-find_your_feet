@@ -7,7 +7,7 @@
 
 if (isset($_POST['send_email']))  {
     
-   $send_email = "kewaladhikari57@yahoo.com";
+   $send_email = "example@example.com";
    $fullName = $_POST['fullname'];
    $email = $_POST['email'];
    $subject = 'Emial form find your feet';
@@ -18,7 +18,7 @@ if (isset($_POST['send_email']))  {
 
    $header = "Reply-To: $email";
     
-    $headers = 'From: hello@fyf.traininghost.net' . "\r\n" .
+    $headers = 'From: example@example.com' . "\r\n" .
     "Reply-To: $email" . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
     
