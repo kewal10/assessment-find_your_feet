@@ -58,6 +58,8 @@ $(function() {
             }
         }
     });
+});
+
 
     $(document).ready(function () {
       var url = window.location;
@@ -66,9 +68,5 @@ $(function() {
            return this.href == url;
       }).parent().addClass('active');
     });
-
-
-
-});
 
 
